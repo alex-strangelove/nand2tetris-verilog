@@ -3,5 +3,5 @@
 module not_n2t(input in, output out);
     
     // Put your code here
-
+    nand(out, in, in);
 endmodule
